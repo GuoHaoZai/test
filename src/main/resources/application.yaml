@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+feign:
+  my-sentinel:
+    enabled: true
+  client:
+    default-config:
+  okhttp:
+    enabled: true
+  httpclient:
+    enabled: false
